@@ -20,6 +20,7 @@ import App from './App.vue';
 
 // router setup
 import router from './routes/router';
+// import router from './routes/starterRouter';
 // plugin setup
 Vue.use(DashboardPlugin);
 
