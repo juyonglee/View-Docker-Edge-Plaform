@@ -10,6 +10,11 @@ const routes = [
     component: DashboardLayout,
     children: [
       {
+        path: '/table',
+        name: 'WBC Table',
+        component: () => import('../views/WBC/Table.vue')
+      },
+      {
         path: '/dashboard',
         name: 'dashboard',
         // route level code-splitting
